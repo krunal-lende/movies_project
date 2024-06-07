@@ -1,0 +1,48 @@
+.seat-booking-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .screen {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: #7a2323;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .seat.selected {
+    background-color: #f00;
+    color: #fff;
+  }
+  
+  .booking__Btn {
+    
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    margin: .5rem .2rem;
+    border-radius: 20px;
+    cursor: pointer;
+   
+    color: black;
+    font-weight: bold;
+    background-color:rgb(255, 0, 0);
+}
